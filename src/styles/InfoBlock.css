@@ -1,0 +1,47 @@
+.info-block {
+    display: flex;
+    flex-direction: column;
+    width: 640px;
+    height: 616px;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.waves {
+    width: 146px;
+    height: 8px;
+}
+
+h1 {
+    font-family: 'SangBleu Kingdom';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 56px;
+}
+
+.vector {
+    width: 62px;
+    height: 40px;
+}
+
+.info-text {
+    font-family: 'SangBleu Kingdom';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.explore-btn {
+    box-sizing: border-box;
+    width: 200px;
+    height: 64px;
+
+    /* Gold */
+
+    border: 1px solid #D9C287;
+    border-radius: 8px;
+}

@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'SangBleu Kingdom';
+    src: url('SangBleuKingdom-Bold-WebXL.otf');
+    src: local('SangBleu Kingdom'), local('SangBleuKingdom-Bold-WebXL'),
+        url('SangBleuKingdom-Bold-WebXL.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SangBleu Kingdom';
+    src: url('SangBleuKingdom-Light-WebXL.otf');
+    src: local('SangBleu Kingdom Light'), local('SangBleuKingdom-Light-WebXL'),
+        url('SangBleuKingdom-Light-WebXL.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SangBleu Kingdom';
+    src: url('SangBleuKingdom-BoldItalic-WebXL.otf');
+    src: local('SangBleu Kingdom Bold Italic'), local('SangBleuKingdom-BoldItalic-WebXL'),
+        url('SangBleuKingdom-BoldItalic-WebXL.otf') format('opentype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SangBleu Kingdom';
+    src: url('SangBleuKingdom-LightItalic-WebXL.otf');
+    src: local('SangBleu Kingdom Light Italic'), local('SangBleuKingdom-LightItalic-WebXL'),
+        url('SangBleuKingdom-LightItalic-WebXL.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SangBleu Kingdom';
+    src: url('SangBleuKingdom-Regular-WebXL.otf');
+    src: local('SangBleu Kingdom Regular'), local('SangBleuKingdom-Regular-WebXL'),
+        url('SangBleuKingdom-Regular-WebXL.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SangBleu Kingdom';
+    src: url('SangBleuKingdom-Medium-WebXL.otf');
+    src: local('SangBleu Kingdom Medium'), local('SangBleuKingdom-Medium-WebXL'),
+        url('SangBleuKingdom-Medium-WebXL.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SangBleu Kingdom';
+    src: url('SangBleuKingdom-RegularItalic-WebXL.otf');
+    src: local('SangBleu Kingdom Italic'), local('SangBleuKingdom-RegularItalic-WebXL'),
+        url('SangBleuKingdom-RegularItalic-WebXL.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SangBleu Kingdom';
+    src: url('SangBleuKingdom-MediumItalic-WebXL.otf');
+    src: local('SangBleu Kingdom Medium Italic'), local('SangBleuKingdom-MediumItalic-WebXL'),
+        url('SangBleuKingdom-MediumItalic-WebXL.otf') format('opentype');
+    font-weight: 500;
+    font-style: italic;
+}
+

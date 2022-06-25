@@ -1,0 +1,111 @@
+.side-menu {
+    position: absolute;
+    top: 0;
+    left: -1360px;
+    width: 1360px;
+    height: 768px;
+    
+    background: #242424;
+    opacity: 0.98;
+}
+
+.side-header {
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+}
+
+.side-header-menu {
+    margin-top: 32px;
+}
+
+.side-logo {
+    width: 66px;
+    height: 56px;
+    margin: 8px 16px 0 50px;
+}
+
+.side-header a{
+    margin: 0 32px;
+    
+    font-family: 'Euclid Circular B';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.side-login a {
+    margin: 0 20px;
+    border-bottom: dashed 1px;
+}
+
+
+
+.side-social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80px;
+    margin-left: 44px;
+}
+
+.side-line {
+    border-left: 1px solid #D9C287;
+    height: 368px;
+    position: relative;
+    margin: 32px 0 16px;
+}
+
+.side-social-buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.side-social-btn {
+    width: 48px;
+    height: 48px;
+    background: none;
+    border: 1px solid #D9C287;
+    border-radius: 50%;
+
+    margin: 16px;
+}
+
+.side-social-logo {
+    max-width: 18px;
+    max-height: 18px;
+}
+
+.side-footer {
+    font-family: 'Euclid Circular B';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+
+    text-align: right;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    opacity: 0.64;
+}
+
+.side-menu-pad {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 0;
+    left: 0;
+
+    color: #3D3C3C;
+}

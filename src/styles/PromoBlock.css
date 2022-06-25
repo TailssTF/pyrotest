@@ -1,0 +1,159 @@
+.promo-block {
+    display: flex;
+    flex-direction: row;
+    height: 808px;
+    margin-left: 140px;
+}
+
+.promo-flower-stroke {
+    position: absolute;
+    left: 484px;
+    top: 0px;
+    z-index: -2;
+}
+
+.promo-flower {
+    position: absolute;
+    left: 532px;
+    top: 0px;
+    z-index: -1;
+}
+
+.promo-left {
+    position: relative;
+    align-items:start;
+}
+
+.promo-waves {
+    width: 182px;
+    height: 32px;
+    margin: 24px -90px 0;
+}
+
+.fhclub {
+    margin-top: 20px;
+
+    font-family: 'Euclid Circular B';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+
+    /* Dark */
+
+    color: #3D3C3C;
+}
+
+.promo-block h1 {
+    margin: 46px 0 40px -5px;
+
+    font-family: 'SangBleu Kingdom';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 96px;
+
+    display: flex;
+    align-items: center;
+}
+
+.promo-text {
+    margin-bottom: 58px;
+
+    font-family: 'Euclid Circular B';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 32px;
+    /* or 133% */
+
+
+    /* Dark */
+
+    color: #3D3C3C;
+}
+
+.promo-btn-find {
+    width: 200px;
+    height: 64px;
+    background: linear-gradient(0deg, #BCA56A, #BCA56A), #86C1DB;
+    border-radius: 8px;
+    
+    font-family: 'Euclid Circular B';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.promo-btn-3d {
+    width: 200px;
+    height: 64px;
+    border: 1px solid #D9C287;
+    border-radius: 8px;
+    margin-left: 40px;
+
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+
+    color: #3D3C3C;
+}
+
+.promo-vector {
+    height: 48px;
+    margin: 23px 0 0 32px;
+
+    border-left: 1px solid #D9C287;
+}
+
+.promo-btn-arrow {
+  width: 64px;
+  height: 64px;
+  border: 1px solid #D9C287; 
+  border-radius: 50%;
+  margin-top: 2px;
+}
+
+.promo-arrow {
+    width: 12px;
+    height: 8px;
+}
+
+.promo-right {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.promo-social-buttons {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.promo-social-btn {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+
+}
+
+.promo-social-logo {
+    max-width: 18px;
+    max-height: 18px;
+}
+
+.promo-cloudly {
+    width: 60px;
+    height: 40px;
+}

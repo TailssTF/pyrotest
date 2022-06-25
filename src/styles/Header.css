@@ -1,0 +1,87 @@
+/* Header */
+
+.header {
+    display: flex;
+    align-items: center;
+    height: 80px;
+}
+
+.side-menu-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    background: #3D3C3C;
+}
+
+.header-menu {
+    width: 543px;
+    margin: 0 28px 0 108px;
+}
+
+.header-menu a {
+    margin: 0 32px;
+}
+
+.logo-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 12px;
+}
+
+.logo {
+    width: 66px;
+    height: 56px;
+}
+
+.stars::before {
+    height: 1px;
+    background-color: #3D3C3C;
+}
+
+.stars {
+    margin-top: 10px;
+    padding: 0 8px;
+    width: 73px;
+    height: 8px;
+}
+
+.stars::after {
+    content: '';
+    display: block;
+    height: 1px;
+    background: green;
+}
+
+.header-right {
+    display: flex;
+    width: 677px;
+    justify-content: space-between;
+    position: relative;
+    padding-right: 120px;
+    box-sizing: border-box;
+}
+
+.header-lang {
+    margin-left: 65px;
+}
+
+.key {
+    margin-right: -12px;
+}
+
+.header-lang a {
+    margin: 0 12px;
+}
+
+.login-phone a {
+    margin: 0 20px;
+    
+    color: #FFFFFF;
+}
+  
+.login {
+    border-bottom: dashed 1px;
+}
