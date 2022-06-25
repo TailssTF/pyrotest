@@ -4,15 +4,19 @@
     left: -1360px;
     width: 1360px;
     height: 768px;
+
+    transition: left 1s;
     
-    background: #242424;
-    opacity: 0.98;
+    background: rgba(36, 36, 36, 0.98);
+    z-index: 1000;
 }
 
 .side-header {
     display: flex;
     flex-direction: row;
     height: 80px;
+    background: rgba(36, 36, 36, 1);
+    border-bottom: 1px solid rgba(196, 196, 196, 0.08);
 }
 
 .side-header-menu {
@@ -41,12 +45,19 @@
     color: #FFFFFF;
 }
 
+.side-login {
+    margin: 31px 0 0 412px;
+}
+
 .side-login a {
-    margin: 0 20px;
+    margin: 0 8px;
     border-bottom: dashed 1px;
 }
 
-
+.side-menu-box {
+    display: flex;
+    flex-direction: row;
+}
 
 .side-social {
     display: flex;
@@ -75,15 +86,37 @@
     border: 1px solid #D9C287;
     border-radius: 50%;
 
-    margin: 16px;
+    margin: 16px 0;
 }
 
 .side-social-logo {
     max-width: 18px;
     max-height: 18px;
 }
+.side-menu-main {
+    display: flex;
+    flex-direction: column;
+}
+
+.side-menu-body {
+    display: flex;
+    flex-direction: row;
+}
+
+.side-category {
+    width: 761px;
+    height: 552px;
+    margin: 32px;
+}
+
+.side-banner {
+    width: 420px;
+    height: 616px;
+}
 
 .side-footer {
+    height: 70px;
+
     font-family: 'Euclid Circular B';
     font-style: normal;
     font-weight: 500;
@@ -100,12 +133,49 @@
     opacity: 0.64;
 }
 
-.side-menu-pad {
+.side-mail {
+    position: relative;
+    top: 24px;
+    margin-right: 60px;
+}
+
+.menu-toggle {
     position: absolute;
     width: 80px;
     height: 80px;
-    top: 0;
-    left: 0;
+    left: 1360px;
+    text-align: center;
 
-    color: #3D3C3C;
+    background: #3D3C3C;
+    color: #FFFFFF;
+
+    cursor: pointer;
+    z-index: 1001;
+}
+
+.menu-toggle::after {
+    content: url('../../public/images/Side/Btn/open.png');
+    position:relative;
+    width: 32px;
+    height: 26px;
+    top: 28px;
+    color: #FFFFFF;
+}
+
+[id='menu-toggle'] {
+    position: absolute;
+    display: none;
+}
+
+[id='menu-toggle']:checked ~ .side-menu {
+    left: 0;
+}
+
+[id='menu-toggle']:checked ~ .side-menu > .menu-toggle:after{
+    content: url('../../public/images/Side/Btn/close.png');
+    position:relative;
+    width: 32px;
+    height: 26px;
+    top: 28px;
+    color: #FFFFFF;
 }
