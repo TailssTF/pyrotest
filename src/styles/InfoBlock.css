@@ -36,12 +36,19 @@ h1 {
 }
 
 .explore-btn {
-    box-sizing: border-box;
-    width: 200px;
-    height: 64px;
-
-    /* Gold */
-
-    border: 1px solid #D9C287;
-    border-radius: 8px;
+    font-family: 'Euclid Circular B';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    
+    color: #3D3C3C;
+    
+    border-radius: 5px;
 }
