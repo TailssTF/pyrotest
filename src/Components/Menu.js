@@ -39,10 +39,32 @@ function Menu() {
                                     <div className='side-menu-body'>
                                           <div className='side-category'>
                                                 <div className='side-category-left'>
-
+                                                      <ul className='side-category-ul'>
+                                                            <li className='side-category-item'>Размещение</li>
+                                                            <li className='side-category-item'>Медицина
+                                                                  <ul className='side-category-subul'>
+                                                                        <li className='side-category-subitem'>Клиника персонализированной медицины</li>
+                                                                        <li className='side-category-subitem'>Медицинский центр</li>
+                                                                  </ul>      
+                                                            </li>
+                                                            <li className='side-category-item'>Мероприятия
+                                                                  <ul className='side-category-subul'>
+                                                                        <li className='side-category-subitem'>Проверка</li>
+                                                                        <li className='side-category-subitem'>Тестовое</li>
+                                                                  </ul>
+                                                            </li>
+                                                            <li className='side-category-item'>Красота и восстановление</li>
+                                                            <li className='side-category-item'>Бары и рестораны</li>
+                                                            <li className='side-category-item'>Развлечения</li>
+                                                            <li className='side-category-item'>Спорт</li>
+                                                            <li className='side-category-item'>Детям</li>
+                                                            <li className='side-category-item'>Транспорт</li>
+                                                      </ul>
                                                 </div>
                                                 <div className='side-category-right'>
-                                                      
+                                                      <div className='side-category-right-text'>
+                                                            Международные стандарты лечения и современные методики в сочетании с высококлассным сервисом и проживанием в одном из лучших семейных курортов мира Mriya Resort & SPA 5* 
+                                                      </div>      
                                                 </div>
                                           </div>
                                           <div className='side-banner'>

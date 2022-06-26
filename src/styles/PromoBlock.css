@@ -188,8 +188,8 @@
     flex-direction: column;
     justify-content: center;
     bottom: -42px;
-    right: -382px;
-    width: 815px;
+    right: -200px;
+    width: 633px;
     height: 326px;
 }
 
@@ -210,10 +210,12 @@
 
 .promo-weather-text {
     position: relative;
-    right: 40px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
+    align-self: center;
+    right: -12px;
+    bottom: 5px;
 
     font-family: 'Euclid Circular B';
     font-style: normal;
@@ -224,17 +226,31 @@
     color: #FFFFFF;
 }
 
+.promo-weather-column-left{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+    margin: 4px 24px;
+    bottom: 2px;
+}
+
 .promo-cloudly {
     width: 60px;
     height: 40px;
-    /*margin-right: 24px;*/
+    margin-top: 10px;
 }
 
 .promo-pin {
     width: 12px;
     height: 16px;
-    align-self: center;
-    /*margin-right: 24px;*/
+}
+
+.promo-weather-column-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .promo-weather-row {
@@ -242,38 +258,43 @@
     flex-direction: row;
     justify-content: center;
 
-    margin: 5px;
+    margin: 6px 0;
 }
 
-.promo-weather-text h1 {
+.promo-weather-degrees {
     margin: 0;
 
     font-family: 'Euclid Circular B';
     font-style: normal;
     font-weight: 400;
     font-size: 48px;
-    line-height: 56px;
+    line-height: 1;
 
+    margin: 0;
 
     color: #FFFFFF;
 }
 
-.promo-weather-text h2 {
+.promo-weather-weather {
     font-family: 'Euclid Circular B';
     font-style: normal;
     font-weight: 300;
     font-size: 20px;
-    line-height: 32px;
+    line-height: 1;
  
+    margin: 0;
+
     color: #FFFFFF;
 }
 
-.promo-weather-text h3 {
+.promo-weather-geo {
     font-family: 'Euclid Circular B';
     font-style: normal;
     font-weight: 300;
     font-size: 16px;
-    line-height: 24px;    
+    line-height: 1;    
     
+    margin: 0;
+
     color: #FFFFFF;
 }

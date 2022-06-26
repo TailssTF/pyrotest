@@ -54,17 +54,26 @@ function PromoBlock() {
               <img src='/images/Promo/intersect.svg' className='promo-intersect' />
               <img src='/images/Promo/intersect.png' className='promo-intersect-dark' />
               <div className='promo-weather-text'>
-                <div className='promo-weather-row'>
+                <div className='promo-weather-column-left'>
                   <img src='/images/Promo/Cloudly.svg' className='promo-cloudly' alt='' />
-                  <h1>27°</h1>
-                </div>
-                <div className='promo-weather-row'>
-                  <p />
-                  <h2>Облачно</h2>
-                </div>
-                <div className='promo-weather-row'>
                   <img src='/images/Promo/pin.png' className='promo-pin' alt='' />
-                  <h3>Ялта, Россия</h3>
+                </div>
+                <div className='promo-weather-column-right'>
+                  <div className='promo-weather-row'>
+                    <div className='promo-weather-degrees'>
+                      27°
+                    </div>
+                  </div>
+                  <div className='promo-weather-row'>
+                    <div className='promo-weather-weather'>
+                      Облачно
+                    </div>
+                  </div>
+                  <div className='promo-weather-row'>                    
+                    <div className='promo-weather-geo'>
+                      Ялта, Россия
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

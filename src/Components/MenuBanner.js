@@ -1,4 +1,3 @@
-import '../styles/MenuBanner.css'
 import "react-responsive-carousel/lib/styles/carousel.css";
 import { Carousel } from 'react-responsive-carousel';
 import React from 'react';
