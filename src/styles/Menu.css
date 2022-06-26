@@ -104,18 +104,27 @@
 }
 
 .side-category {
+    display: flex;
+    flex-direction: row;
     width: 761px;
     height: 552px;
-    margin: 32px;
+    margin: 32px 16px;
+}
+
+.side-category-left {
+    width: 400px;
+    border-right: 1px solid rgba(217, 194, 135, 0.24);;
 }
 
 .side-banner {
+    margin-left: 40px;
     width: 420px;
     height: 616px;
 }
 
 .side-footer {
     height: 70px;
+    margin-left: 24px;
 
     font-family: 'Euclid Circular B';
     font-style: normal;
@@ -131,6 +140,8 @@
     color: #FFFFFF;
 
     opacity: 0.64;
+
+    border-top: 1px solid rgba(196, 196, 196, 0.08);
 }
 
 .side-mail {

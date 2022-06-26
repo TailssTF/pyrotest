@@ -2,22 +2,25 @@
     display: flex;
     flex-direction: row;
     height: 808px;
-    margin-left: 140px;
 }
+
+/* Background */
 
 .promo-flower-stroke {
     position: absolute;
-    left: 484px;
-    top: 0px;
-    z-index: -2;
+    left: 345px;
+    top: -80px;
+    z-index: -102;
 }
 
 .promo-flower {
     position: absolute;
-    left: 532px;
-    top: 0px;
-    z-index: -1;
+    left: 390px;
+    top: -80px;
+    z-index: -101;
 }
+
+/* Left block */
 
 .promo-left {
     position: relative;
@@ -128,24 +131,48 @@
     height: 8px;
 }
 
+/* Right block */
+
 .promo-right {
     position: relative;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    right: 60px;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: auto;
 }
 
 .promo-social-buttons {
+    position: absolute;
+    top: 175px;
+    right: -140px;
     display: flex;
     flex-direction: column;
-
 }
 
 .promo-social-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 48px;
     height: 48px;
+    border: 1px solid #D9C287;
     border-radius: 50%;
+    padding: 8px;
+    text-align: center;
+    margin: 15px;
+}
 
+.promo-social-pad {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
 }
 
 .promo-social-logo {
@@ -153,7 +180,100 @@
     max-height: 18px;
 }
 
+/* Weather */
+
+.promo-weather {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    bottom: -42px;
+    right: -382px;
+    width: 815px;
+    height: 326px;
+}
+
+.promo-intersect {
+    position: absolute;
+    width: 440px;
+    height: 312px;
+    left: -89px;
+    z-index: -2;
+}
+
+.promo-intersect-dark {
+    position: absolute;
+    width: 633px;
+    height: 312px;
+    z-index: -1;
+}
+
+.promo-weather-text {
+    position: relative;
+    right: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    font-family: 'Euclid Circular B';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 32px;
+
+    color: #FFFFFF;
+}
+
 .promo-cloudly {
     width: 60px;
     height: 40px;
+    /*margin-right: 24px;*/
+}
+
+.promo-pin {
+    width: 12px;
+    height: 16px;
+    align-self: center;
+    /*margin-right: 24px;*/
+}
+
+.promo-weather-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    margin: 5px;
+}
+
+.promo-weather-text h1 {
+    margin: 0;
+
+    font-family: 'Euclid Circular B';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+
+
+    color: #FFFFFF;
+}
+
+.promo-weather-text h2 {
+    font-family: 'Euclid Circular B';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 32px;
+ 
+    color: #FFFFFF;
+}
+
+.promo-weather-text h3 {
+    font-family: 'Euclid Circular B';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;    
+    
+    color: #FFFFFF;
 }
