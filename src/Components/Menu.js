@@ -47,12 +47,7 @@ function Menu() {
                                                                         <li className='side-category-subitem'>Медицинский центр</li>
                                                                   </ul>      
                                                             </li>
-                                                            <li className='side-category-item'>Мероприятия
-                                                                  <ul className='side-category-subul'>
-                                                                        <li className='side-category-subitem'>Проверка</li>
-                                                                        <li className='side-category-subitem'>Тестовое</li>
-                                                                  </ul>
-                                                            </li>
+                                                            <li className='side-category-item'>Мероприятия</li>
                                                             <li className='side-category-item'>Красота и восстановление</li>
                                                             <li className='side-category-item'>Бары и рестораны</li>
                                                             <li className='side-category-item'>Развлечения</li>
