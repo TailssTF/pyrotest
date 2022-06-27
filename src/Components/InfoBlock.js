@@ -4,6 +4,8 @@ function InfoBlock() {
     return (
       <section className='container'>
         <div className='info-block'>
+          <img src='/images/Info/111.png' className='info-bg-left' alt='' />
+          <img src='/images/Info/222.png' className='info-bg-right' alt='' />
           <img src='/images/Info/waves.svg' className='waves' alt='' />
           <h1>
             Mriya Resort & SPA — 

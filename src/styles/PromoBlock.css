@@ -80,6 +80,10 @@
     color: #3D3C3C;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 .promo-btn-find {
     width: 200px;
     height: 64px;

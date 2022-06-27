@@ -1,0 +1,112 @@
+.side-banner-intersect, .side-banner-info, .side-banner-info-header,
+.side-banner-info-text, .side-banner-info-button {
+    position: absolute;
+}
+
+.side-banner-intersect {
+    bottom: 0;
+    width: 360px !important;
+    height: 306px;
+}
+
+.side-banner-info {
+    display: flex;
+    flex-direction: column;
+    bottom: 0;
+    width: 360px;
+    height: 306px;
+}
+
+.side-banner-info-header,
+.side-banner-info-text, .side-banner-info-button {
+    margin-left: 40px;
+}
+
+.side-banner-info-header {
+    bottom: 163px;
+
+    font-family: 'SangBleu Kingdom';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 56px;
+    /* identical to box height, or 140% */
+
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.32);
+}
+
+
+
+.side-banner-info-text {
+    bottom: 130px;
+
+    font-family: 'Euclid Circular B';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+    
+    
+    color: #FFFFFF;
+    
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.32);
+}
+
+.side-banner-info-button {
+    bottom: 41px;
+
+    width: 200px;
+    height: 64px;
+    background: #BCA56A;
+    border-radius: 8px;
+
+    font-family: 'Euclid Circular B';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+
+/* Banner Indicators */
+
+.indicator, .indicator-selected {
+    display: inline-block;
+    position: relative;
+    text-align: end;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    right: 33px;
+    bottom: -5px;
+
+    margin: 0 8px 32px;
+
+    padding: 4px;
+
+    background:#FFFFFF;
+
+    cursor: pointer;
+}
+
+.indicator-selected {
+    background: #D9C287;
+}
+
+.control-dots {
+    text-align: right !important;
+}

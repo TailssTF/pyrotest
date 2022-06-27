@@ -109,7 +109,7 @@
 .side-category {
     display: flex;
     flex-direction: row;
-    width: 800px;
+    width: 799px;
     height: 552px;
     margin: 32px 0;
 
@@ -199,6 +199,11 @@
     text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.32);
 }
 
+.side-category-subitem:hover {
+    color:#D9C287;
+    cursor: pointer;
+}
+
 .side-category-right {
     display: flex;
     flex-direction: column;
@@ -250,8 +255,9 @@
 
 .side-mail {
     position: relative;
-    top: 24px;
+    top: 22px;
     margin-right: 60px;
+    color:rgba(255, 255, 255, 1)
 }
 
 .menu-toggle {

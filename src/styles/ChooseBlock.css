@@ -1,0 +1,64 @@
+.choose-block {
+    height: 598px;
+}
+
+.cb-text {
+    margin-top: 6px;
+
+    font-family: 'SangBleu Kingdom';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 56px;
+
+    color: #3D3C3C;
+}
+
+.cb-form {
+    height: 80px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+
+    background: #F6F6F6;
+    border-radius: 8px;
+}
+
+select {
+    appearance: none;
+}
+
+.cb-form select, input {
+
+    margin: 8px 4px;
+    padding-left: 15px;
+    height: 64px;
+    background: #FFFFFF;
+    border: 1px solid #E3E3E3;
+
+    font-family: 'Euclid Circular B';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    display: flex;
+    align-items: center;
+    color: #333333;
+}
+
+.cb-form-what {
+    width: 328px;
+    margin-left: 8px !important;
+    
+    padding-right: 1.2em !important;
+    background-repeat: no-repeat !important;
+    background-position: calc(100% - 13px) 29px !important;
+    background-size: 10px 5px !important;
+    background-image: url('../../public/images/Choose/arrow.svg') !important;    
+}
+
+.cb-form-when {
+    width: 264px;
+}

@@ -1,7 +1,13 @@
+import '../styles/AllInclusive.css'
+
 function AllinclusiveBlock() {
     return (
-      <div className=''>
+      <div className='allinclusive-bg'>
+        <section className='container'>
+          <div className='allinclusive-block'>
 
+          </div>
+        </section>
       </div>
     );
   }
