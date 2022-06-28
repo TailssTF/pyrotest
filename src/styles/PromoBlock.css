@@ -235,7 +235,7 @@ button:hover {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: end;
+    align-items: flex-end;
     margin: 4px 24px;
     bottom: 2px;
 }

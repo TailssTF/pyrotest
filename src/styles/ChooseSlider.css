@@ -1,0 +1,48 @@
+ul {
+    height: 300px;
+}
+
+.cs-tabs-wrapper {
+    height: 40px;
+    border-bottom: 1px solid rgba(61, 60, 60, 0.08);
+}
+
+.cs-left, .cs-right {
+    position: absolute;
+    background: none;
+    border: 0;
+}
+
+.cs-left {
+    top: -26px;
+    right: 20px;
+}
+
+.cs-right {
+    top: -26px;
+    right: 10px;
+}
+
+
+.cs-arrow {
+    width: 12px;
+    height: 8px;
+}
+
+.cs-slide {
+    display: flex;
+    flex-direction: row;
+}
+/*
+.cs-slides {
+    height: 260px;
+}
+*/
+.cs-block, .cs-block-cat {
+    margin: 32px 20px 0;
+}
+
+.cs-img {
+    width: 360px !important;
+    height: 232px;
+}

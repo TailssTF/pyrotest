@@ -1,5 +1,5 @@
 .choose-block {
-    height: 598px;
+    height: 593px;
 }
 
 .cb-text {
@@ -19,20 +19,17 @@
     margin-top: 50px;
     display: flex;
     flex-direction: row;
+    justify-content: flex-start;
 
     background: #F6F6F6;
     border-radius: 8px;
 }
 
-select {
-    appearance: none;
-}
-
-.cb-form select, input {
+.cb-form input {
 
     margin: 8px 4px;
-    padding-left: 15px;
-    height: 64px;
+    padding-left: 16px;
+    height: 60px;
     background: #FFFFFF;
     border: 1px solid #E3E3E3;
 
@@ -49,16 +46,61 @@ select {
 }
 
 .cb-form-what {
-    width: 328px;
+    width: 308px;
     margin-left: 8px !important;
     
-    padding-right: 1.2em !important;
+
     background-repeat: no-repeat !important;
-    background-position: calc(100% - 13px) 29px !important;
+    background-position: calc(100% - 12px) 29px !important;
     background-size: 10px 5px !important;
     background-image: url('../../public/images/Choose/arrow.svg') !important;    
 }
 
 .cb-form-when {
-    width: 264px;
+    width: 245px;
+
+    background-repeat: no-repeat !important;
+    background-position: calc(100% - 12px) 20px !important;
+    background-size: 23px 22px !important;
+    background-image: url('../../public/images/Choose/date.svg') !important;
+}
+
+.cb-form-who {
+    width: 373px;
+
+    background-repeat: no-repeat !important;
+    background-position: calc(100% - 12px) 20px !important;
+    background-size: 20px 22px !important;
+    background-image: url('../../public/images/Choose/subtract.svg') !important;
+}
+
+.cb-form-submit {
+    width: 144px;
+    height: 80px;
+    margin-left: 4px;
+    border: 0;
+
+    background: #3D3C3C;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+
+    display: flex;
+    justify-content: center;
+
+    font-family: 'Euclid Circular B';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 32px;
+    /* or 133% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.choose-slider {
+    height: 300px;
 }
