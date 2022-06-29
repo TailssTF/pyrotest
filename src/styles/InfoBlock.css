@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     width: 640px;
-    height: 642px;
+    height: 640px;
     text-align: center;
     align-items: center;
     margin: 0 auto;
@@ -10,14 +10,14 @@
 
 .info-bg-left {
     position: absolute;
-    top: -214px;
+    top: -216px;
     left: -140px;
     z-index: -100;
 }
 
 .info-bg-right {
     position: absolute;
-    top: 146px;
+    top: 144px;
     right: -140px;
     z-index: -100;
 }
@@ -35,7 +35,7 @@ h1 {
     font-weight: 400;
     font-size: 40px;
     line-height: 56px;
-    margin: 103px 0 0;
+    margin: 102px 0 0;
 }
 
 .vector {

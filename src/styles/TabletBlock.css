@@ -1,0 +1,26 @@
+.tablet-block {
+    display:block;
+    text-align: center;
+    justify-content: center;
+    height: 808px;
+}
+
+.tablet-mr {
+    position: absolute;
+    left: -45px;
+    margin-top: 150px;
+    z-index: 9;
+    width: 1531px;
+    height: 253px;
+}
+
+.tablet-tablet {
+    position: relative;
+    z-index: 10;
+    top: -134px;
+}
+
+.tablet-logo {
+    position: relative;
+    top: -177px;
+}
