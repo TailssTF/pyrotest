@@ -49,11 +49,11 @@ function NextArrow(props) {
 class ChooseTab1 extends Component {
     render() {
       const settings = {
-        dots: true,
         infinite: true,
         slidesToShow: 2,
         slidesToScroll: 4,
-        variableWidth: true
+        variableWidth: true,
+        arrows: false
       };
       return (
         <div className='cs-wrapper'>
@@ -79,11 +79,11 @@ class ChooseTab1 extends Component {
 class ChooseTab3 extends Component {
     render() {
       const settings = {
-        dots: true,
         infinite: true,
         slidesToShow: 3,
         slidesToScroll: 1,
-        variableWidth: true
+        variableWidth: true,
+        arrows: false
       };
       return (
         <div className='cs-wrapper'>
