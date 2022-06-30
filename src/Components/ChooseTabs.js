@@ -79,9 +79,10 @@ class ChooseTab1 extends Component {
 class ChooseTab3 extends Component {
     render() {
       const settings = {
-        infinite: true,
-        slidesToShow: 3,
+        infinite: false,
+        slidesToShow: 2,
         slidesToScroll: 1,
+        row: 1,
         variableWidth: true,
         arrows: false
       };

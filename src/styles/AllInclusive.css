@@ -48,11 +48,15 @@
 }
 
 .carousel-root{
-    margin-top: -53px;
+    margin-top: -61px;
+}
+
+.allinclusive-block .carousel.carousel-slider {
+    width: 110% !important;
 }
 
 .ai-row {
-    margin-top: 53px;
+    margin-top: 61px;
     display: flex;
     flex-direction: row;
     height: 800px;
@@ -69,7 +73,14 @@
 }
 
 .ai-column-3 {
-    margin: -53px 10px 0;
+    width: 276px;
+    height: 504px;
+    margin: -61px 2px 0;
+    padding: 8px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 8px 16px rgba(142, 124, 78, 0.16);
+    border-radius: 8px;
 }
 
 .ai-col-header {
