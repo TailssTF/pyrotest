@@ -2,12 +2,6 @@
 @import url('./fonts/euclidcircularb/stylesheet.css');
 @import url('./fonts/SangBleu\ Kingdom/stylesheet.css');
 
-@media screen and (min-width:100px) and (max-width:320px) {
-  .App{
-      width: 100%;
-  }
-}
-
 .App {
   position: relative;
   width: 1440px;
