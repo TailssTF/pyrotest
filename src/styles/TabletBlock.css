@@ -7,10 +7,9 @@
 
 .tablet-mr {
     position: absolute;
-    left: -45px;
+    left: 0;
     margin-top: 150px;
     z-index: 9;
-    width: 1531px;
     height: 253px;
 }
 

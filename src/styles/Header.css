@@ -1,3 +1,12 @@
+@media screen and (min-width:100px) and (max-width:320px) {
+    .header{
+        width: 100%;
+    }
+}
+
+
+
+
 /* Header */
 
 .header {
@@ -56,6 +65,10 @@
 
 .header-lang {
     margin-left: 62px;
+}
+
+.lang-deselected {
+    color: rgba(0, 0, 0, 0.24);
 }
 
 .key {

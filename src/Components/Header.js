@@ -16,7 +16,7 @@ function Header(){
             <div className='header-right'>
                 <div className='header-lang'>
                     <a href='#' className='lang'>RU</a>
-                    <a href='#' className='lang'>ENG</a>
+                    <a href='#' className='lang-deselected'>ENG</a>
                 </div>
                 <div className='login-phone'>
                     <img src='/images/Header/key.svg' className='key' alt=''/>    
