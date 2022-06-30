@@ -62,7 +62,7 @@ class AiSlider extends Component {
           <div className='ai-row'>
             <div className='ai-column-1'>
               <img src='/images/AllInclusive/1.png' className='ai-col-img-1' />
-              <div className='ai-col-about'>Заниматесь в тренажерном зале и посещайте групповые <br />тренировки</div>
+              <div className='ai-col-about'>Заниматесь в тренажерном зале и посещайте групповые тренировки</div>
               <div className='ai-col-more'>
                 Читать больше
                 <img src='/images/AllInclusive/more-line.svg' className='ai-col-more-line' />
@@ -90,7 +90,7 @@ class AiSlider extends Component {
           <div className='ai-row'>
             <div className='ai-column-1'>
               <img src='/images/AllInclusive/1.png' className='ai-col-img-1' />
-              <div className='ai-col-about'>Заниматесь в тренажерном зале и посещайте групповые <br />тренировки</div>
+              <div className='ai-col-about'>Заниматесь в тренажерном зале и посещайте групповые тренировки</div>
               <div className='ai-col-more'>
                 Читать больше
                 <img src='/images/AllInclusive/more-line.svg' className='ai-col-more-line' />
@@ -118,7 +118,7 @@ class AiSlider extends Component {
           <div className='ai-row'>
             <div className='ai-column-1'>
               <img src='/images/AllInclusive/1.png' className='ai-col-img-1' />
-              <div className='ai-col-about'>Заниматесь в тренажерном зале и посещайте групповые <br />тренировки</div>
+              <div className='ai-col-about'>Заниматесь в тренажерном зале и посещайте групповые тренировки</div>
               <div className='ai-col-more'>
                 Читать больше
                 <img src='/images/AllInclusive/more-line.svg' className='ai-col-more-line' />

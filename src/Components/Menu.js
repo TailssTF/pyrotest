@@ -8,6 +8,7 @@ function Menu() {
                   <nav className='side-menu'>
                         <label for='menu-toggle' class='menu-toggle' onclick />
                         <div className='side-header'>
+                              <div className='side-lang'>Ru</div>
                               <img src='/images/Side/logo.svg' className='side-logo' alt=''/>
                               <div className='side-header-menu'>
                                     <a href='#'>О комплексе</a>
@@ -67,6 +68,33 @@ function Menu() {
                                           </div>
                                     </div>
                                     <div className='side-footer'>
+                                          <div className='side-footer-mobile'>
+                                                <button className='side-find'>Найти номер</button>  
+                                                <div className='side-links'>
+                                                      <a href='#'>О комплексе </a>
+                                                      <a href='#'>Блог </a>
+                                                      <a href='#'>FAQ </a>
+                                                      <a href='#'>Афиша </a>
+                                                      <a href='#'>Спецпредложения </a>
+                                                      <a href='#'>Важная информация </a>
+                                                      <a href='#'>Контакты </a>
+                                                </div>
+                                                <div className='side-footer-social'>
+                                                      <button href='#' className='side-social-btn'>
+                                                            <img src='/images/Side/facebook.svg' className='side-social-logo' alt='' />
+                                                      </button>
+                                                      <button href='#' className='side-social-btn'>
+                                                            <img src='/images/Side/twitter.svg' className='side-social-logo' alt='' />
+                                                      </button>
+                                                      <button href='#' className='side-social-btn'>
+                                                            <img src='/images/Side/instagram.svg' className='side-social-logo' alt='' />
+                                                      </button>
+                                                </div>
+                                                <div className='side-footer-tel'>
+                                                      <a href='tel:88005006847' className='tel'>8&nbsp;800&nbsp;500&nbsp;6847</a>
+                                                </div>
+                                                
+                                          </div>
                                           <a href='mail:info@mriyaresort.com' className='side-mail'>info@mriyaresort.com</a>
                                     </div>
                               </div>      

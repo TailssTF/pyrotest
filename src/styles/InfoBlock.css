@@ -1,11 +1,15 @@
 .info-block {
     display: flex;
     flex-direction: column;
-    width: 640px;
     height: 640px;
     text-align: center;
     align-items: center;
     margin: 0 auto;
+}
+
+.info-block-bg {
+    position: relative;
+    width: 100%;
 }
 
 .info-bg-left {
@@ -23,8 +27,7 @@
 }
 
 .waves {
-    position: relative;
-    top: 25px;
+    margin-top: 25px;
     width: 146px;
     height: 8px;
 }
@@ -35,17 +38,18 @@ h1 {
     font-weight: 400;
     font-size: 40px;
     line-height: 56px;
-    margin: 102px 0 0;
+    margin: 78px 0 0;
 }
 
 .vector {
-    position: relative;
     width: 62px;
     height: 40px;
     margin: 42px;
 }
 
 .info-text {
+    width: 640px;
+
     font-family: 'SangBleu Kingdom';
     font-style: normal;
     font-weight: 400;
@@ -74,4 +78,46 @@ h1 {
     text-transform: uppercase;
     
     color: #3D3C3C;
+}
+
+@media screen and (max-width:360px) {
+    .info-block {
+        width: 100%;
+    }
+
+    .info-bg-left{
+        top: 1787px;
+        left: -16px;
+    }
+
+    .info-bg-right {
+        width: 213px;
+        height: 345px;
+        top: 476px;
+        right: -16px;
+    }
+
+    .waves {
+        margin-top: 72px;
+    }
+
+    .info-block h1 {
+        font-family: 'SangBleu Kingdom';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+        margin-top: 64px;
+    }
+
+    .vector {
+        width: 37px;
+        height: 24px;
+        margin: 25px;
+    }
+
+    .info-text {
+        width: 100%;
+    }
+
 }

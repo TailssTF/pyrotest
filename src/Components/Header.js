@@ -23,6 +23,10 @@ function Header(){
                     <a href='#' className='login'>ВХОД</a>
                     <a href='tel:88005006847' className='tel'>8&nbsp;800&nbsp;500&nbsp;6847</a>
                 </div>
+                
+            </div>
+            <div className='key-mobile'>
+                <img src='/images/Header/key-mobile.svg' className='key' alt=''/>
             </div>
         </header>
     );

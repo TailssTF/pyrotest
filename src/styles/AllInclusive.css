@@ -59,7 +59,6 @@
     margin-top: 61px;
     display: flex;
     flex-direction: row;
-    height: 800px;
 }
 
 .ai-column-1, .ai-column-2, .ai-column-3 {
@@ -137,6 +136,7 @@
 
 .ai-col-about {
     margin:22px 0 0 16px;
+    width: 90%;
 
     text-align: left;
     font-family: 'Euclid Circular B';
@@ -171,4 +171,69 @@
     width: 16px !important;
     height: 2px;
     margin: 10px 8px;
+}
+
+@media screen and (max-width:360px) {
+    .allinclusive-bg {
+        width: 100%;
+        height: 1232px;
+    }
+
+    .ai-bg-left, .ai-bg-right {
+        display: none;
+    }
+    
+    .allinclusive-block {
+        margin-top: 56px;
+    }
+
+    .ai-header {
+        width: 100%;
+        justify-content: space-between;
+
+        padding-top: 17px;
+        font-family: 'SangBleu Kingdom';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 56px;
+        /* or 233% */
+    }
+
+    .ai-buttons {
+        margin: 0px -8px;
+    }
+
+    .ai-row {
+        margin-top: 33px;
+        flex-direction: column;
+    }
+
+    .ai-column-1, .ai-column-2, .ai-column-3 {
+        width: 328px;
+        margin: 0;
+    }
+
+    .ai-col-img-1, .ai-col-img-2, .ai-col-img-3 {
+        width: 100% !important;
+        height: 232px !important;
+    }
+
+    .ai-col-header, .ai-col-text {
+        display: none;
+    }
+
+    .ai-col-img-2 {
+        margin-top: 28px;
+    }
+
+    .ai-column-3 {
+        padding: 0;
+        background: none;
+    }
+
+    .ai-col-img-3 {
+        margin: 28px 0 0;
+    }
+
 }

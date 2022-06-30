@@ -1,4 +1,5 @@
 .tablet-block {
+    position: relative;
     display:block;
     text-align: center;
     justify-content: center;
@@ -22,4 +23,18 @@
 .tablet-logo {
     position: relative;
     top: -177px;
+}
+
+@media screen and (max-width:360px) {
+    .tablet-block {
+        height: 416px;
+    }
+
+    .tablet-mr, .tablet-tablet {
+        display: none;
+    }
+
+    .tablet-logo {
+        top: 124px;
+    }
 }

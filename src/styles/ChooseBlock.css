@@ -15,7 +15,6 @@
 }
 
 .cb-form {
-    height: 80px;
     margin-top: 50px;
     display: flex;
     flex-direction: row;
@@ -27,8 +26,8 @@
 
 .cb-form input {
 
-    margin: 8px 4px;
-    padding-left: 16px;
+    margin: 7px 4px;
+    padding-left: 15px;
     height: 60px;
     background: #FFFFFF;
     border: 1px solid #E3E3E3;
@@ -104,4 +103,50 @@
 .choose-slider {
     height: 300px;
     margin-top: 36px;
+}
+
+
+@media screen and (max-width:360px) {
+    .cb-text {
+        font-family: 'SangBleu Kingdom';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 56px;
+    }
+
+    .cb-form {
+        margin-top: 12px;
+        flex-direction: column;
+    }
+
+    .cb-form input {
+        margin: 8px 8px 0;
+        width: 293px;
+        height: 60px;
+    }
+
+    .cb-form-what {
+        background-position: calc(100% - 26px) 28px !important;
+    }
+
+    .cb-form-when {
+        background-position: calc(100% - 19px) 20px !important;
+    }
+
+    .cb-form-who {
+        background-position: calc(100% - 21px) 20px !important;
+    }
+
+    .cb-form-submit {
+        width: 312px;
+        height: 64px;
+        margin: 16px 8px;
+        border-radius: 8px;
+    }
+
+    .choose-slider {
+        margin-top: 29px;
+    }
+
 }

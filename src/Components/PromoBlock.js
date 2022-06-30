@@ -8,6 +8,8 @@ function PromoBlock() {
           <div className='promo-back'>
             <img src='/images/Promo/flower_stroke.svg' className='promo-flower-stroke' alt='' />
             <img src='/images/Promo/flower.png' className='promo-flower' alt='' />
+            <img src='/images/Promo/flower_stroke-mobile.svg' className='promo-flower-stroke-mobile' alt='' />
+            <img src='/images/Promo/flower-mobile.png' className='promo-flower-mobile' alt='' />
           </div>
           <div className='promo-left'>
             <img src='/images/Promo/waves.svg' className='promo-waves' alt='' />
@@ -19,8 +21,7 @@ function PromoBlock() {
               Resort
             </h1>
             <p className='promo-text'>
-              Российский курорт для всей семьи <br />
-              на берегу черного моря
+              Российский курорт для всей семьи на берегу черного моря
             </p>
             <div className='promo-btns'>
               <button href='#' className='promo-btn-find'>Найти номер</button>

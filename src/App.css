@@ -2,6 +2,7 @@
 @import url('./fonts/euclidcircularb/stylesheet.css');
 @import url('./fonts/SangBleu\ Kingdom/stylesheet.css');
 
+
 .App {
   position: relative;
   width: 1440px;
@@ -35,4 +36,14 @@ a{
 
 .text-bold {
   font-weight: bold;
+}
+
+@media screen and (max-width:360px) {
+  .App{
+      width: 100%;
+  }
+
+  .container {
+    width: 328px;
+  }
 }
