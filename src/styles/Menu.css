@@ -166,7 +166,6 @@
 }
 
 .side-category-subul {
-    display: none;
     position: absolute;
     top: 15px;
     transform: translateX(100%);
@@ -184,13 +183,8 @@
     opacity: 1;
     pointer-events: all;
     cursor: pointer;
-    display: block;
 }
-/*
-.side-menu-main:hover .side-category-subul {
-    display: block;
-}
-*/
+
 .side-category-subitem{
 
     margin-bottom: 32px;
@@ -211,7 +205,6 @@
 .side-category-subitem:hover {
     color:#D9C287;
     cursor: pointer;
-    display: block;
 }
 
 .side-category-right {
